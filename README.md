@@ -7,9 +7,6 @@ To understand this chatbot in detail, basic knowledge of following components wo
  2. Langchain- LangChain is a framework for developing applications powered by language models. It enables applications to connect a language model to other sources of data (for e.g. get data from Google Search results and then answer user's questions in a better way). https://python.langchain.com/docs/get_started/introduction
  3. LLM Model- Foundational models from HuggingFace model hub. https://huggingface.co/models
 
-![image](https://github.com/sachink2010/llm_chatbot/assets/4855287/a51f0ef0-4c0b-4c83-8c59-eac2fdb78095)
-
-
 
 ![alt text](assets/chat.png)
 
