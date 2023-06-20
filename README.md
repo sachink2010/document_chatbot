@@ -1,15 +1,13 @@
 # llm_document_chatbot
-Lot of enterprise clients want to understand how they could utilize Generative AI (LLLMs) with their own enterprise data but are concerned about data privacy concerns. This bot provides you a quick way to understand  
-
-A repository for a document chatbot. 
-To understand this chatbot in detail, basic knowledge of following components would help:
-1.	Streamlit- A faster way to build and share data apps. Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required. [www.streamlit.io](https://streamlit.io/)
- 2. Langchain- LangChain is a framework for developing applications powered by language models. It enables applications to connect a language model to other sources of data (for e.g. get data from Google Search results and then answer user's questions in a better way). https://python.langchain.com/docs/get_started/introduction
- 3. LLM Model- Foundational models from HuggingFace model hub. https://huggingface.co/models
+Lot of enterprise clients want to understand how they could utilize Generative AI (LLLMs) with their own enterprise data but are concerned about data privacy concerns. This bot provides you a quick way to understand how to utilize LLMs securely for your enterprise data. Please note that this is just a quick demo and there are better ways of implementing this with Retrieval Augemented Generation. https://aws.amazon.com/blogs/machine-learning/question-answering-using-retrieval-augmented-generation-with-foundation-models-in-amazon-sagemaker-jumpstart/
 
 
 ![alt text](assets/chat.png)
 
+To understand this chatbot in detail, basic knowledge of following components would help:
+1.	Streamlit- A faster way to build and share data apps. Streamlit turns data scripts into shareable web apps in minutes. All in pure Python. No front‑end experience required. [www.streamlit.io](https://streamlit.io/)
+ 2. Langchain- LangChain is a framework for developing applications powered by language models. It enables applications to connect a language model to other sources of data (for e.g. get data from Google Search results and then answer user's questions in a better way). https://python.langchain.com/docs/get_started/introduction
+ 3. LLM Model- Foundational models from HuggingFace model hub. https://huggingface.co/models
 
 ## Architecture diagram for SageMaker implementation
 The key advantage with this implementation is that no data ever leaves your AWS account. The model is hosted in a SageMaker endpoint in your account and all inference requests will be sent to that endpoint.
