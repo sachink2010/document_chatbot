@@ -1,5 +1,6 @@
-# document_chatbot
-A repository for a document chatbot
+# llm_document_chatbot
+A repository for a document chatbot. 
+
 
 ![alt text](assets/chat.png)
 
