@@ -11,7 +11,7 @@ from random import randint
 st.set_page_config(page_title="Document Analysis (Model: FLAN-T5-XXL)", page_icon=":robot:")
 st.header("Chat with your document 📄")
 
-endpoint_name = "flan-t5-xxl-2023-06-04-20-42-42-925"
+endpoint_name = "flan-t5-xxl-2023-06-22-15-10-56-385"
 
 
 class ContentHandler(LLMContentHandler):
@@ -39,9 +39,9 @@ content_handler = ContentHandler()
 def load_chain():
     llm = SagemakerEndpoint(
         endpoint_name=endpoint_name,
-        region_name="us-east-1",
+        region_name="eu-west-1",
         content_handler=content_handler,
-        credentials_profile_name="default"
+        #credentials_profile_name="default"
     )
     memory = ConversationBufferMemory()
     chain = ConversationChain(llm=llm, memory=memory)
