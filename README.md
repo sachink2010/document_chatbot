@@ -1,6 +1,8 @@
 # llm_document_chatbot
 Lot of enterprise clients want to understand how they could utilize Generative AI (LLLMs) with their own enterprise data but are concerned about data privacy concerns. 
+
 This bot provides you a quick way to understand how to utilize LLMs securely for your enterprise data. 
+
 Please note that this is just a quick demo and there are better ways of implementing this with Retrieval Augemented Generation. https://aws.amazon.com/blogs/machine-learning/question-answering-using-retrieval-augmented-generation-with-foundation-models-in-amazon-sagemaker-jumpstart/
 
 
